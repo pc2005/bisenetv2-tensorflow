@@ -5,6 +5,17 @@
     "version": "0.2.0",
     "configurations": [
         {
+            "name": "train BiSeNetv2",
+            "type": "python",
+            "request": "launch",
+            "program": "${workspaceFolder}/tools/train_bisenetv2_cityscapes.py",
+            "console": "integratedTerminal",
+            "cwd": "${workspaceFolder}",
+            "env": {
+                "PYTHONPATH":"${PYTHONPATH}:${workspaceFolder}"
+            }
+        }, 
+        {
             "name": "Python: Current File",
             "type": "python",
             "request": "launch",

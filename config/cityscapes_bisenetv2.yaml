@@ -23,7 +23,7 @@ AUG:
         CONTRAST_JITTER_RATIO: 0.5
         SATURATION_JITTER_RATIO: 0.5
 DATASET:
-    DATA_DIR: '/PATH/IMAGE_SCENE_SEGMENTATION/CITYSPACES'
+    DATA_DIR: '/media/pc2005/Samsung_1TB/data/cityscapes'
     IMAGE_TYPE: 'rgb'  # choice rgb or rgba
     NUM_CLASSES: 19
     TEST_FILE_LIST: '/PATH/IMAGE_SCENE_SEGMENTATION/CITYSPACES/image_file_index/test.txt'
